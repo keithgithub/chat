@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>958E25DB-94E9-4C49-B730-3B0A9DFE2628</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZLF_Char</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>f662ad93-7e6d-004e-aa55-98c54718ff55++1165</key>
+		<string>http://192.168.10.252:81/svn/iOS22/8</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZLF_Char/ZLF_Char.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>f662ad93-7e6d-004e-aa55-98c54718ff55++1165</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>f662ad93-7e6d-004e-aa55-98c54718ff55++1165</key>
+		<string>http://192.168.10.252:81/svn/iOS22</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.10.252:81/svn/iOS22/8/ZLF_Char/ZLF_Char.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>f662ad93-7e6d-004e-aa55-98c54718ff55++1165</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>f662ad93-7e6d-004e-aa55-98c54718ff55++1165</string>
+			<key>IDESourceControlWCCName</key>
+			<string>8</string>
+		</dict>
+	</array>
+</dict>
+</plist>

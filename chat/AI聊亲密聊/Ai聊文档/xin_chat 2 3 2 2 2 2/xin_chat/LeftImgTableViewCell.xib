@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="leftImg" rowHeight="84" id="KGk-i7-Jjw" customClass="LeftImgTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avtar_120_default" translatesAutoresizingMaskIntoConstraints="NO" id="I2F-Nd-hdF">
+                        <rect key="frame" x="8" y="13" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="0qX-Ux-Bws"/>
+                            <constraint firstAttribute="height" constant="40" id="uaq-KR-tOP"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pop_friend_share副本" translatesAutoresizingMaskIntoConstraints="NO" id="OVf-4t-K6E">
+                        <rect key="frame" x="50" y="24" width="111" height="56"/>
+                        <rect key="contentStretch" x="0.5" y="0.5" width="0.0" height="0.0"/>
+                    </imageView>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kty-hL-OlY">
+                        <rect key="frame" x="130" y="0.0" width="57" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="57" id="Lqq-EB-zWX"/>
+                            <constraint firstAttribute="height" constant="17" id="aak-eX-a7h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="15:15:15" backgroundImage="btn_bg">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hi" translatesAutoresizingMaskIntoConstraints="NO" id="3Vy-fC-8KN">
+                        <rect key="frame" x="67" y="34" width="83" height="36"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerX" secondItem="Kty-hL-OlY" secondAttribute="centerX" id="3L6-FY-fIf"/>
+                    <constraint firstItem="I2F-Nd-hdF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="4Kv-uN-EsM"/>
+                    <constraint firstItem="OVf-4t-K6E" firstAttribute="top" secondItem="Kty-hL-OlY" secondAttribute="bottom" constant="7" id="BFW-fe-Wdd"/>
+                    <constraint firstItem="Kty-hL-OlY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="BHf-Vd-fDx"/>
+                    <constraint firstItem="I2F-Nd-hdF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Bng-aL-FKV"/>
+                    <constraint firstItem="3Vy-fC-8KN" firstAttribute="centerX" secondItem="OVf-4t-K6E" secondAttribute="centerX" constant="3" id="BuN-9L-XgK"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="3Vy-fC-8KN" secondAttribute="trailing" constant="87" id="ECH-8W-uuM"/>
+                    <constraint firstItem="OVf-4t-K6E" firstAttribute="leading" secondItem="I2F-Nd-hdF" secondAttribute="trailing" constant="2" id="ade-kN-jfU"/>
+                    <constraint firstItem="3Vy-fC-8KN" firstAttribute="top" secondItem="Kty-hL-OlY" secondAttribute="bottom" constant="17" id="hQa-lM-dPh"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="3Vy-fC-8KN" secondAttribute="bottom" constant="6" id="p1S-aT-a2E"/>
+                    <constraint firstItem="3Vy-fC-8KN" firstAttribute="centerY" secondItem="OVf-4t-K6E" secondAttribute="centerY" id="s4S-hw-WIO"/>
+                    <constraint firstItem="3Vy-fC-8KN" firstAttribute="leading" secondItem="I2F-Nd-hdF" secondAttribute="trailing" constant="19" id="vWq-85-kB2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="btnTime" destination="Kty-hL-OlY" id="s4F-r6-BdE"/>
+                <outlet property="imgHead" destination="I2F-Nd-hdF" id="lvb-0q-mV9"/>
+                <outlet property="imgMsg" destination="3Vy-fC-8KN" id="1Ks-Hy-b8o"/>
+            </connections>
+            <point key="canvasLocation" x="277.5" y="170.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avtar_120_default" width="165" height="165"/>
+        <image name="btn_bg" width="317" height="72"/>
+        <image name="hi" width="80" height="80"/>
+        <image name="pop_friend_share副本" width="56" height="44"/>
+    </resources>
+</document>

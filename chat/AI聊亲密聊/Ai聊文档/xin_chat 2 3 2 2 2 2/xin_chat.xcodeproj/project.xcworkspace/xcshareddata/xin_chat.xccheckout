@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>239CB806-8E19-4A12-962D-A321C3A52AF8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>xin_chat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>f662ad93-7e6d-004e-aa55-98c54718ff55++1160</key>
+		<string>http://192.168.10.252:81/svn/iOS22/7</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>xin_chat/xin_chat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>f662ad93-7e6d-004e-aa55-98c54718ff55++1160</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>f662ad93-7e6d-004e-aa55-98c54718ff55++1160</key>
+		<string>http://192.168.10.252:81/svn/iOS22</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.10.252:81/svn/iOS22/7/xin_chat/xin_chat.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>f662ad93-7e6d-004e-aa55-98c54718ff55++1160</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>f662ad93-7e6d-004e-aa55-98c54718ff55++1160</string>
+			<key>IDESourceControlWCCName</key>
+			<string>7</string>
+		</dict>
+	</array>
+</dict>
+</plist>
